@@ -1,16 +1,11 @@
-import { useState } from 'react'
-import './App.css'
-import Square from './assets/square/square'
+import { useState } from "react";
+// import './App.css'
+import Board from "./assets/board/board";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
-  return (
-    <Square/>
-  )
+  return <Board />;
 }
 
-export default App
-
-
-
+export default App;
