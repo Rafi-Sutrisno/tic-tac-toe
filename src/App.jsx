@@ -1,7 +1,7 @@
 import { useState } from "react";
 // import './App.css'
 import Board from "./assets/board/board";
-import Country from "./assets/FetchTest/fetchTest";
+import ButtonCountry from "./assets/FetchCountry/buttonStart";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,7 +10,7 @@ function App() {
     <>
       <Board />
 
-      <Country />
+      <ButtonCountry />
     </>
   );
 }
