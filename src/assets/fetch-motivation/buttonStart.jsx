@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Motivation from "./fetch_motivation";
+import Motivation from "./fetch-motivation";
 import React from "react";
 
 export default function Square() {
